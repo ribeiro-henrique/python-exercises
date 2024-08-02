@@ -1,0 +1,6 @@
+notation = input('Digite algo: ')
+print('São número? ', notation.isnumeric())
+print('São letra? ', notation.isalpha())
+print('São números ou letras? ', notation.isalnum())
+print('Está maiúsculo? ', notation.isupper())
+print('Está minúsculo? ', notation.islower())
